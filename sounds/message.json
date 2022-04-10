@@ -1,0 +1,20 @@
+{
+	"id": "message",
+	"start": [
+		{
+			"noReverb": true,
+			"volume": 0.05,
+			"stopTime": 0.1,
+			"attack": 0.05,
+			"decay": 0.05,
+			"startFreq": 300,
+			"stopFreq": 300,
+			"wave": "sine",
+			"ratios": [
+				1,
+				1.33,
+				4
+			]
+		}
+	]
+}

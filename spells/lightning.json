@@ -1,0 +1,14 @@
+{
+	"id": "lightning",
+	"name": "Repulsor",
+	"description": "Huge knockback, if your aim is good enough. Beware, the recoil from Repulsor knocks you back too.",
+	"action": "projectile",
+	"color": "#00ddff",
+	"icon": "lightningHelix",
+	"maxAngleDiffInRevs": 0.01,
+	"cooldown": 540,
+	"throttle": true,
+	"chargeTicks": 6,
+	"recoil": 0.5,
+	"projectile": "ProjectileTemplate:lightning"
+}

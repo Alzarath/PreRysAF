@@ -1,0 +1,26 @@
+{
+	"id": "mines-channelling",
+	"cutoffEarly": false,
+	"start": [
+		{
+			"volume": 0.25,
+			"stopTime": 0.17,
+			"attack": 0.05,
+			"decay": 0.05,
+			"startFreq": 6000,
+			"stopFreq": 6400,
+			"modStartFreq": 30,
+			"modStopFreq": 30,
+			"modStartStrength": 3000,
+			"modStopStrength": 12588,
+			"tremoloFreq": 30,
+			"tremoloStrength": 0.1,
+			"wave": "triangle",
+			"ratios": [
+				1,
+				1.33,
+				1.5
+			]
+		}
+	]
+}

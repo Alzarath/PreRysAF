@@ -1,0 +1,18 @@
+{
+	"id": "difire",
+	"name": "Difire",
+	"description": "Each bolt of Difire will add another stack of 2.5 damage per second to your enemy. There is no limit to the number of stacks, but you must hit them with Difire at least once every 4 seconds to keep the fire burning.",
+	"action": "spray",
+	"color": "#ff0088",
+	"icon": "crossedSlashes",
+	"sound": "triplet",
+	"maxAngleDiffInRevs": 0.01,
+	"cooldown": 90,
+	"throttle": true,
+	"movementProportionWhileChannelling": 1,
+	"numProjectilesPerTick": 2,
+	"intervalTicks": 1,
+	"lengthTicks": 1,
+	"jitterRatio": 1,
+	"projectile": "ProjectileTemplate:difire"
+}

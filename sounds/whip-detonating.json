@@ -1,0 +1,31 @@
+{
+	"id": "whip-detonating",
+	"cutoffEarly": false,
+	"start": [
+		{
+			"stopTime": 0.15,
+			"attack": 0.01,
+			"decay": 0.14,
+			"startFreq": 3000,
+			"stopFreq": 3000,
+			"modStartFreq": 20,
+			"modStopFreq": 10,
+			"modStartStrength": 6000,
+			"modStopStrength": 3000,
+			"tremoloFreq": 3,
+			"tremoloStrength": 0.1,
+			"wave": "triangle",
+			"ratios": [
+				1,
+				1.2,
+				1.4,
+				1.6,
+				1.8,
+				2.4,
+				2.8,
+				3.2,
+				3.6
+			]
+		}
+	]
+}

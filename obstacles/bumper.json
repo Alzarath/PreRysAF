@@ -1,0 +1,44 @@
+{
+	"id": "bumper",
+	"health": 50,
+	"strike": {
+		"ticks": 6,
+		"flash": true,
+		"growth": 0.01
+	},
+	"sound": "bumper",
+	"render": [
+		{
+			"type": "solid",
+			"color": "#0008",
+			"shadow": true,
+			"flash": false,
+			"expand": 0.003
+		},
+		{
+			"type": "bloom",
+			"color": "#fc08",
+			"bloom": 0.05,
+			"strikeOnly": true
+		},
+		{
+			"type": "solid",
+			"color": "#0008",
+			"flash": false,
+			"expand": 0.003
+		},
+		{
+			"type": "solid",
+			"color": "#fc0",
+			"gradient": 0.2
+		},
+		{
+			"type": "solid",
+			"color": "#c94",
+			"deadColor": "#753",
+			"gradient": 0.3,
+			"expand": -0.003
+		}
+	],
+	"impulse": 0.00015
+}

@@ -1,0 +1,11 @@
+{
+	"id": "homing",
+	"description": "Follows the enemy. High damage, but only if the enemy doesn't know how to dodge.",
+	"action": "projectile",
+	"color": "#44ffcc",
+	"icon": "boltSaw",
+	"cooldown": 540,
+	"throttle": true,
+	"maxAngleDiffInRevs": 0.01,
+	"projectile": "ProjectileTemplate:homing"
+}

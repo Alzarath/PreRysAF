@@ -1,0 +1,16 @@
+{
+	"id": "mines",
+	"name": "Energy Mines",
+	"description": "Mark out your territory with some Energy Mines. If you walk away from the mines, they expire. Energy mines only do damage after 0.1 seconds.",
+	"action": "spray",
+	"sound": "mines",
+	"color": "#ff009c",
+	"icon": "mineExplosion",
+	"maxAngleDiffInRevs": 0.01,
+	"cooldown": 300,
+	"throttle": true,
+	"intervalTicks": 1,
+	"lengthTicks": 5,
+	"jitterRatio": 0.7,
+	"projectile": "ProjectileTemplate:mines"
+}

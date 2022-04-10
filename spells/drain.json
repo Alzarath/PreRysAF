@@ -1,0 +1,11 @@
+{
+	"id": "drain",
+	"description": "Steal some life from your enemy. They probably didn't need it anyway.",
+	"action": "projectile",
+	"color": "#22ee88",
+	"icon": "energyBreath",
+	"maxAngleDiffInRevs": 0.01,
+	"cooldown": 300,
+	"throttle": true,
+	"projectile": "ProjectileTemplate:drain"
+}

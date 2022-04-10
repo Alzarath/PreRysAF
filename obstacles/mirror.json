@@ -1,0 +1,43 @@
+{
+	"id": "mirror",
+	"health": 50,
+	"strike": {
+		"ticks": 10,
+		"flash": true,
+		"growth": 0.005
+	},
+	"render": [
+		{
+			"type": "solid",
+			"color": "#0008",
+			"shadow": true,
+			"flash": false,
+			"expand": 0.003
+		},
+		{
+			"type": "bloom",
+			"color": "#0cf8",
+			"bloom": 0.05,
+			"strikeOnly": true
+		},
+		{
+			"type": "solid",
+			"color": "#0008",
+			"flash": false,
+			"expand": 0.003
+		},
+		{
+			"type": "solid",
+			"color": "#0cf",
+			"gradient": 0.2
+		},
+		{
+			"type": "solid",
+			"color": "#0ad",
+			"deadColor": "#48f",
+			"gradient": 0.3,
+			"expand": -0.003
+		}
+	],
+	"mirror": true
+}

@@ -1,0 +1,82 @@
+{
+	"density": 30,
+	"radius": 0.003,
+	"speed": 0.6,
+	"maxTicks": 90,
+	"damage": 12,
+	"lifeSteal": 0.3,
+	"collideWith": 17,
+	"categories": 2,
+	"selfPassthrough": true,
+	"sound": "phaseOrb",
+	"soundHit": "standard",
+	"color": "#0ff",
+	"renderers": [
+		{
+			"type": "bloom",
+			"glow": 0.15,
+			"radius": 0.03
+		},
+		{
+			"type": "reticule",
+			"color": "#0ff",
+			"radius": 0.0045,
+			"minRadius": 0.0041
+		},
+		{
+			"type": "polygon",
+			"color": "#00ffff40",
+			"minGraphics": 4,
+			"numPoints": 5,
+			"radiusMultiplier": 4,
+			"revolutionInterval": 120,
+			"ticks": 1,
+			"light": 1,
+			"shadow": 0.75
+		},
+		{
+			"type": "polygon",
+			"color": "#00ffff4D",
+			"maxGraphics": 3,
+			"numPoints": 5,
+			"radiusMultiplier": 4,
+			"revolutionInterval": 120,
+			"ticks": 1,
+			"light": 1,
+			"shadow": 0.5
+		},
+		{
+			"type": "swirl",
+			"color": "#00ffff33",
+			"minGraphics": 4,
+			"ticks": 45,
+			"radius": 0.0044,
+			"particleRadius": 0.001,
+			"smoke": 0,
+			"numParticles": 5,
+			"vanish": 1,
+			"loopTicks": 15,
+			"glow": 0.05
+		},
+		{
+			"type": "swirl",
+			"color": "#00ffff40",
+			"ticks": 45,
+			"maxGraphics": 3,
+			"radius": 0.0044,
+			"particleRadius": 0.001,
+			"smoke": 0,
+			"numParticles": 5,
+			"vanish": 1,
+			"loopTicks": 15,
+			"glow": 0.05
+		},
+		{
+			"type": "strike",
+			"ticks": 30,
+			"flash": true,
+			"numParticles": 5
+		}
+	]
+}
+

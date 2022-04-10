@@ -1,0 +1,31 @@
+{
+	"id": "supernova-detonating",
+	"cutoffEarly": false,
+	"start": [
+		{
+			"stopTime": 0.75,
+			"attack": 0.01,
+			"decay": 0.74,
+			"startFreq": 100,
+			"stopFreq": 10,
+			"modStartFreq": 800,
+			"modStopFreq": 800,
+			"modStartStrength": 100,
+			"modStopStrength": 100,
+			"tremoloFreq": 3,
+			"tremoloStrength": 0.1,
+			"wave": "triangle",
+			"ratios": [
+				1,
+				1.2,
+				1.4,
+				1.6,
+				1.8,
+				2.4,
+				2.8,
+				3.2,
+				3.6
+			]
+		}
+	]
+}

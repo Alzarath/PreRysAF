@@ -1,0 +1,25 @@
+{
+	"id": "blast-charging",
+	"start": [
+		{
+			"stopTime": 5,
+			"attack": 0.25,
+			"decay": 0.5,
+			"startFreq": 4,
+			"stopFreq": 9,
+			"wave": "triangle",
+			"ratios": [
+				1,
+				2,
+				2.5,
+				4,
+				5,
+				8,
+				10,
+				16
+			],
+			"tremoloFreq": 12,
+			"tremoloStrength": 0.4
+		}
+	]
+}

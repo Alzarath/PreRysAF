@@ -1,0 +1,11 @@
+{
+	"id": "supernova",
+	"description": "A delayed explosion to knock back your enemies. Knockback is higher at the center of the blast.",
+	"action": "projectile",
+	"color": "#ff9a00",
+	"icon": "crownedExplosion",
+	"maxAngleDiffInRevs": 0.01,
+	"cooldown": 450,
+	"throttle": true,
+	"projectile": "ProjectileTemplate:supernova"
+}

@@ -1,0 +1,13 @@
+{
+	"id": "teleport-channelling",
+	"start": [
+		{
+			"stopTime": 0.1,
+			"attack": 0.03,
+			"decay": 0.07,
+			"highPass": 780,
+			"lowPass": 800,
+			"wave": "brown-noise"
+		}
+	]
+}

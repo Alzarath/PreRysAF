@@ -1,0 +1,27 @@
+{
+	"id": "grapple",
+	"description": "Hold the button to grapple. Move your cursor to swing Grapple around. Throw your enemies into the void!",
+	"action": "focus",
+	"color": "#f06",
+	"icon": "grapple",
+	"maxAngleDiffInRevs": 0.01,
+	"cooldown": 300,
+	"throttle": false,
+	"unlink": true,
+	"strikeCancel": {
+		"collideWith": 2,
+		"notCollideTypes": [
+			"meteor",
+			"meteorite"
+		],
+		"notLinked": true,
+		"against": 65534
+	},
+	"release": {
+		"interrupt": true,
+		"interruptibleAfterTicks": 35
+	},
+	"maxChannellingTicks": 120,
+	"movementProportionWhileChannelling": 1,
+	"projectile": "ProjectileTemplate:grapple"
+}

@@ -1,0 +1,77 @@
+{
+	"density": 10,
+	"radius": 0.002,
+	"speed": 0.8,
+	"maxTicks": 60,
+	"damage": 22.5,
+	"source": "repeater",
+	"lifeSteal": 0.3,
+	"collideWith": 65533,
+	"expireOn": 65519,
+	"partialDamage": {
+		"initialMultiplier": 0.1,
+		"ticks": 24
+	},
+	"buffs": [
+		{
+			"type": "cooldown",
+			"owner": true,
+			"maxTicks": 1,
+			"against": 4,
+			"spellId": "repeater",
+			"maxCooldown": 0,
+			"sound": "repeater",
+			"color": "#00ff00"
+		},
+		{
+			"type": "armor",
+			"maxTicks": 300,
+			"against": 4,
+			"proportion": 0.3333,
+			"stack": "repeater",
+			"source": "repeater",
+			"maxStacks": 1,
+			"resetOnGameStart": true,
+			"render": {
+				"color": "#0f0",
+				"alpha": 1,
+				"ticks": 1,
+				"emissionRadiusFactor": 0,
+				"particleRadius": 0,
+				"shine": 0.2,
+				"glow": 0.4,
+				"bloom": 0.02,
+				"bloomLow": 0.02,
+				"decay": true,
+				"light": null
+			}
+		}
+	],
+	"sound": "repeater",
+	"color": "#00ff00",
+	"renderers": [
+		{
+			"type": "bloom"
+		},
+		{
+			"type": "projectile",
+			"ticks": 18,
+			"noPartialRadius": true
+		},
+		{
+			"type": "ray",
+			"intermediatePoints": true,
+			"ticks": 12,
+			"glow": 0.3,
+			"radiusMultiplier": 0.25
+		},
+		{
+			"type": "strike",
+			"ticks": 18,
+			"flash": true,
+			"growth": 1,
+			"numParticles": 5
+		}
+	]
+}
+

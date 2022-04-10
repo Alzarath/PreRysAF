@@ -1,0 +1,16 @@
+{
+	"id": "firespray",
+	"name": "Firesplatter",
+	"description": "Shoot a stream of fire in a wide arc. Get closer to focus all your damage onto one target.",
+	"action": "spray",
+	"sound": "firespray",
+	"color": "#ff0044",
+	"icon": "bubblingBeam",
+	"maxAngleDiffInRevs": 0.01,
+	"cooldown": 300,
+	"throttle": true,
+	"intervalTicks": 2,
+	"lengthTicks": 20,
+	"jitterRatio": 0.3,
+	"projectile": "ProjectileTemplate:firespray"
+}

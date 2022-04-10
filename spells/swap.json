@@ -1,0 +1,25 @@
+{
+	"id": "swap",
+	"name": "Swap",
+	"description": "Swap positions with an enemy, obstacle or meteor. Teleports if you miss.",
+	"effects": [
+		{
+			"icon": "fas fa-briefcase-medical",
+			"title": "Cleanse",
+			"text": "Clears all positive and negative effects."
+		},
+		{
+			"icon": "fas fa-clock",
+			"title": "Void recharge",
+			"text": "Cools down 2x faster when in the void."
+		}
+	],
+	"action": "projectile",
+	"color": "#23e3ff",
+	"icon": "bodySwapping",
+	"maxAngleDiffInRevs": 0.01,
+	"cooldown": 600,
+	"throttle": false,
+	"debuff": true,
+	"projectile": "ProjectileTemplate:swap"
+}

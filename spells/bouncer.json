@@ -1,0 +1,11 @@
+{
+	"id": "bouncer",
+	"description": "The more times this bounces, the more damage this does. Get in close and keep it bouncing.",
+	"action": "projectile",
+	"color": "#88ee22",
+	"icon": "divert",
+	"maxAngleDiffInRevs": 0.01,
+	"cooldown": 450,
+	"throttle": true,
+	"projectile": "ProjectileTemplate:bouncer"
+}

@@ -1,0 +1,33 @@
+{
+	"id": "boomerang",
+	"start": [
+		{
+			"volume": 0.25,
+			"stopTime": 5,
+			"attack": 0.25,
+			"decay": 4,
+			"highPass": 895,
+			"lowPass": 925,
+			"wave": "brown-noise"
+		},
+		{
+			"stopTime": 5,
+			"attack": 0.25,
+			"decay": 4,
+			"startFreq": 205,
+			"stopFreq": 206,
+			"lowPass": 100,
+			"tremoloFreq": 7,
+			"tremoloStrength": 0.3,
+			"wave": "sine",
+			"ratios": [
+				1,
+				1.5,
+				2,
+				2.75,
+				4,
+				5.5
+			]
+		}
+	]
+}

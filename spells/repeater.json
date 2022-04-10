@@ -1,0 +1,12 @@
+{
+	"id": "repeater",
+	"description": "Every time Repeater hits, the cooldown resets and you can shoot it again immediately. Hitting the same enemy again will do 33% more damage. Repeater takes 0.4 seconds to grow to full damage, so hit from a distance for maximum effect.",
+	"action": "projectile",
+	"color": "#00ff00",
+	"icon": "sonicLightning",
+	"maxAngleDiffInRevs": 0.01,
+	"cooldown": 600,
+	"chargeTicks": 3,
+	"throttle": true,
+	"projectile": "ProjectileTemplate:repeater"
+}

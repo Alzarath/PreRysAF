@@ -1,0 +1,28 @@
+{
+	"id": "standard-hit",
+	"cutoffEarly": false,
+	"start": [
+		{
+			"stopTime": 0.75,
+			"attack": 0.01,
+			"decay": 0.7,
+			"startFreq": 150,
+			"stopFreq": 0.01,
+			"lowPass": 250,
+			"wave": "triangle",
+			"ratios": [
+				1,
+				1.1,
+				1.2,
+				1.3,
+				1.4,
+				1.5,
+				1.6,
+				1.7,
+				1.8,
+				1.9,
+				2
+			]
+		}
+	]
+}

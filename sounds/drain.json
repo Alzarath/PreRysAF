@@ -1,0 +1,29 @@
+{
+	"id": "drain",
+	"start": [
+		{
+			"stopTime": 2,
+			"attack": 0.25,
+			"decay": 1.75,
+			"highPass": 2500,
+			"lowPass": 2510,
+			"wave": "brown-noise"
+		},
+		{
+			"stopTime": 2,
+			"attack": 0.25,
+			"decay": 1.75,
+			"startFreq": 1100,
+			"stopFreq": 1103,
+			"lowPass": 300,
+			"tremoloFreq": 10,
+			"tremoloStrength": 0.2,
+			"wave": "square",
+			"ratios": [
+				1,
+				1.34,
+				1.5
+			]
+		}
+	]
+}

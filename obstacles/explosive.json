@@ -1,0 +1,47 @@
+{
+	"id": "explosive",
+	"health": 50,
+	"density": 10,
+	"linearDamping": 1.5,
+	"circularHitbox": true,
+	"strike": {
+		"ticks": 6,
+		"flash": true,
+		"growth": 0.005
+	},
+	"render": [
+		{
+			"type": "solid",
+			"color": "#0008",
+			"shadow": true,
+			"flash": false,
+			"expand": 0.003
+		},
+		{
+			"type": "solid",
+			"color": "#0008",
+			"flash": false,
+			"expand": 0.003
+		},
+		{
+			"type": "solid",
+			"color": "#fc0",
+			"deadColor": "#fc0"
+		},
+		{
+			"type": "solid",
+			"color": "#c94",
+			"deadColor": "#fc8",
+			"expand": -0.002
+		}
+	],
+	"expireOn": 1,
+	"detonate": {
+		"damage": 0,
+		"minImpulse": 0.0002,
+		"maxImpulse": 0.0005,
+		"radius": 0.05,
+		"renderTicks": 30,
+		"sound": "explosive"
+	}
+}

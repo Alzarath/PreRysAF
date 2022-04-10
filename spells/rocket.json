@@ -1,0 +1,28 @@
+{
+	"id": "rocket",
+	"name": "Spirit Bomb",
+	"description": "You control Spirit Bomb while it is flying, but while doing this, you cannot move. Cast Spirit Bomb again to detonate at exactly the right moment.",
+	"effects": [
+		{
+			"icon": "fas fa-hand-paper",
+			"title": "Interruptible",
+			"text": "If you take an enemy hit, Spirit Bomb will be interrupted."
+		},
+		{
+			"icon": "fas fa-snowflake",
+			"title": "Freeze",
+			"text": "Enemies hit will be unable to move for a short time."
+		}
+	],
+	"action": "focus",
+	"color": "#ff8855",
+	"icon": "mightyForce",
+	"maxAngleDiffInRevs": 0.01,
+	"cooldown": 300,
+	"focusDelaysCooldown": false,
+	"throttle": true,
+	"interruptibleAfterTicks": 0,
+	"movementProportionWhileChannelling": 0.05,
+	"strikeCancel": {},
+	"projectile": "ProjectileTemplate:rocket"
+}

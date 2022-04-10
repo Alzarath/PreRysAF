@@ -1,0 +1,13 @@
+{
+	"id": "horcrux",
+	"name": "Horcrux",
+	"description": "As long as your Horcrux is alive, you cannot die. The Horcrux will lifesteal from any nearby enemies, but will not kill them. Your Horcrux is fragile, so shoot it close to your enemy, but don't let it touch them or it will break!",
+	"action": "projectile",
+	"sound": "horcrux",
+	"color": "#22ee88",
+	"icon": "burningEye",
+	"maxAngleDiffInRevs": 0.01,
+	"cooldown": 450,
+	"throttle": true,
+	"projectile": "ProjectileTemplate:horcrux"
+}

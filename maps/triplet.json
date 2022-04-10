@@ -1,0 +1,18 @@
+{
+	"id": "triplet",
+	"color": "#422f46",
+	"background": "#2b192e",
+	"obstacles": [
+		{
+			"type": "spinner",
+			"numObstacles": 3,
+			"layoutRadius": 0.28,
+			"layoutAngleOffsetInRevs": 0.5,
+			"numPoints": 3,
+			"extent": 0.0225,
+			"orientationAngleOffsetInRevs": 0.5
+		}
+	],
+	"numPoints": 3,
+	"angleOffsetInRevs": 0.16666667
+}

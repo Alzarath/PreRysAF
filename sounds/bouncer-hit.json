@@ -1,0 +1,20 @@
+{
+	"id": "bouncer-hit",
+	"cutoffEarly": false,
+	"start": [
+		{
+			"stopTime": 0.5,
+			"attack": 0.001,
+			"decay": 0.49,
+			"startFreq": 8100,
+			"stopFreq": 8500,
+			"lowPass": 9000,
+			"wave": "square",
+			"ratios": [
+				1,
+				1.33,
+				1.5
+			]
+		}
+	]
+}

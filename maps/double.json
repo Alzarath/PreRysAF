@@ -1,0 +1,25 @@
+{
+	"id": "double",
+	"color": "#453b2a",
+	"background": "#2e2619",
+	"numPoints": 4,
+	"obstacles": [
+		{
+			"type": "bumper",
+			"numObstacles": 2,
+			"layoutRadius": 0.07,
+			"layoutAngleOffsetInRevs": 0.125,
+			"numPoints": 4,
+			"extent": 0.017,
+			"orientationAngleOffsetInRevs": 0.125
+		},
+		{
+			"numObstacles": 4,
+			"layoutRadius": 0.33,
+			"layoutAngleOffsetInRevs": 0,
+			"numPoints": 4,
+			"extent": 0.009,
+			"orientationAngleOffsetInRevs": 0
+		}
+	]
+}

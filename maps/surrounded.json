@@ -1,0 +1,39 @@
+{
+	"id": "surrounded",
+	"color": "#433832",
+	"background": "#2c211b",
+	"obstacles": [
+		{
+			"numObstacles": 15,
+			"layoutRadius": 0.35,
+			"layoutAngleOffsetInRevs": 0.1,
+			"numPoints": 3,
+			"extent": 0.013,
+			"orientationAngleOffsetInRevs": 0.5,
+			"pattern": [
+				1,
+				1,
+				1,
+				1,
+				0
+			]
+		},
+		{
+			"type": "bumper",
+			"numObstacles": 6,
+			"layoutRadius": 0.15,
+			"layoutAngleOffsetInRevs": 0.2666667,
+			"numPoints": 4,
+			"extent": 0.009,
+			"orientationAngleOffsetInRevs": 0.5
+		},
+		{
+			"numObstacles": 1,
+			"layoutRadius": 0,
+			"layoutAngleOffsetInRevs": 0,
+			"numPoints": 4,
+			"extent": 0.01,
+			"orientationAngleOffsetInRevs": 0.5
+		}
+	]
+}

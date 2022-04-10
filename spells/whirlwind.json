@@ -1,0 +1,21 @@
+{
+	"id": "whirlwind",
+	"name": "Freezing Breath",
+	"description": "A freezing whirlwind to slow your enemies. The whirlwind also catches enemy projectiles.",
+	"effects": [
+		{
+			"icon": "fas fa-snowflake",
+			"title": "Slow",
+			"text": "Enemies caught in your freezing breath will be slowed 50% for 2 seconds."
+		}
+	],
+	"action": "projectile",
+	"color": "#44ffff",
+	"icon": "snowflake1",
+	"sound": "whirlwind",
+	"maxAngleDiffInRevs": 0.01,
+	"cooldown": 450,
+	"throttle": true,
+	"chargeTicks": 6,
+	"projectile": "ProjectileTemplate:whirlwind"
+}

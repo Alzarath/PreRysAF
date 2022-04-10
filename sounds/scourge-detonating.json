@@ -1,0 +1,42 @@
+{
+	"id": "scourge-detonating",
+	"cutoffEarly": false,
+	"start": [
+		{
+			"volume": 0.25,
+			"stopTime": 1,
+			"attack": 0.01,
+			"decay": 0.99,
+			"startFreq": 100,
+			"stopFreq": 10,
+			"wave": "triangle",
+			"ratios": [
+				1,
+				1.2,
+				1.4,
+				1.6,
+				1.8
+			]
+		},
+		{
+			"volume": 0.25,
+			"stopTime": 1,
+			"attack": 0.01,
+			"decay": 0.99,
+			"startFreq": 100,
+			"stopFreq": 30,
+			"modStartFreq": 313,
+			"modStopFreq": 100,
+			"modStartStrength": 600,
+			"modStopStrength": 100,
+			"tremoloFreq": 3,
+			"tremoloStrength": 0.1,
+			"wave": "triangle",
+			"ratios": [
+				1,
+				1.33,
+				1.5
+			]
+		}
+	]
+}

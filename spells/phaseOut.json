@@ -1,0 +1,92 @@
+{
+	"id": "phaseOut",
+	"name": "Phase Shift",
+	"description": "Hold down the button to disappear from the world for up to 1 second. While phased shifted, you cannot be hurt, but you also cannot cast spells. Phase shift also cancels all knockback. Phase shift takes longer to cooldown the longer you stay in phase shift.",
+	"untargeted": true,
+	"maxAngleDiffInRevs": 1,
+	"cooldown": 240,
+	"throttle": false,
+	"unlink": true,
+	"interruptibleAfterTicks": 6,
+	"maxChannellingTicks": 45,
+	"release": {
+		"interrupt": true,
+		"interruptibleAfterTicks": 15
+	},
+	"buffs": [
+		{
+			"type": "cooldown",
+			"channelling": true,
+			"cleansable": false,
+			"maxTicks": 60,
+			"spellId": "phaseOut",
+			"cooldownRateModifier": -7
+		},
+		{
+			"type": "mass",
+			"channelling": true,
+			"cleansable": false,
+			"maxTicks": 60,
+			"radius": 0.014,
+			"density": 1000000,
+			"restrictCollideWith": 0
+		},
+		{
+			"type": "armor",
+			"channelling": true,
+			"cleansable": false,
+			"maxTicks": 60,
+			"proportion": -1
+		},
+		{
+			"type": "movement",
+			"channelling": true,
+			"cleansable": false,
+			"maxTicks": 60,
+			"movementProportion": 0
+		},
+		{
+			"type": "glide",
+			"channelling": true,
+			"cleansable": false,
+			"maxTicks": 60,
+			"linearDampingMultiplier": 1000
+		},
+		{
+			"type": "vanish",
+			"channelling": true,
+			"noTargetingIndicator": true,
+			"noBuffs": true,
+			"cleansable": false,
+			"maxTicks": 60,
+			"sound": "phaseOut",
+			"renderStart": {
+				"numParticles": 10,
+				"color": "#111",
+				"colorize": 1,
+				"ticks": 15,
+				"particleRadius": 0.014,
+				"glow": 0.3,
+				"shine": 1,
+				"bloom": 0,
+				"vanish": 1,
+				"light": 1
+			},
+			"renderFinish": {
+				"numParticles": 10,
+				"color": "#111",
+				"colorize": 1,
+				"ticks": 15,
+				"particleRadius": 0.014,
+				"glow": 0.3,
+				"shine": 1,
+				"bloom": 0,
+				"vanish": 1,
+				"light": 1
+			}
+		}
+	],
+	"icon": "resonance",
+	"color": "#ff00dd",
+	"action": "buff"
+}

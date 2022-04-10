@@ -1,0 +1,31 @@
+{
+	"id": "voidRush-lavaImmunity",
+	"start": [
+		{
+			"volume": 0.2,
+			"stopTime": 2.5,
+			"attack": 0.5,
+			"decay": 2,
+			"startFreq": 30,
+			"stopFreq": 30,
+			"highPass": 40,
+			"wave": "sine",
+			"tremoloFreq": 60,
+			"tremoloStrength": 0.4,
+			"ratios": [
+				1,
+				2,
+				3
+			]
+		},
+		{
+			"volume": 0.25,
+			"stopTime": 2.5,
+			"attack": 0.25,
+			"decay": 2.25,
+			"highPass": 960,
+			"lowPass": 960,
+			"wave": "brown-noise"
+		}
+	]
+}

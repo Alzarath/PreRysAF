@@ -1,0 +1,45 @@
+{
+	"id": "shield",
+	"name": "Reflect",
+	"description": "Reflect away projectile attacks. Ineffective against area-of-effect spells.",
+	"maxTicks": 120,
+	"cooldown": 600,
+	"categories": 24,
+	"throttle": false,
+	"minRadius": 0.015,
+	"strokeRadius": 0.024,
+	"radius": 0.025,
+	"growthTicks": 9,
+	"angularWidthInRevs": 0.45,
+	"maxTurnRatePerTickInRevs": 0.05,
+	"takesOwnership": true,
+	"blocksTeleporters": false,
+	"damageMultiplier": 1,
+	"ropeLength": 0.006,
+	"angularDamping": 3,
+	"density": 0.72,
+	"buffs": [
+		{
+			"type": "movement",
+			"maxTicks": 90,
+			"movementProportion": 0.5,
+			"channelling": false,
+			"decay": true
+		}
+	],
+	"icon": "shieldReflect",
+	"color": "#3366ff",
+	"colorize": 0.1,
+	"light": 1,
+	"glow": 0.3,
+	"bloom": 0.03,
+	"shine": 0.1,
+	"strike": {
+		"ticks": 10,
+		"flash": true,
+		"growth": 0.3,
+		"bloom": 0.03
+	},
+	"action": "shield",
+	"sound": "shield"
+}

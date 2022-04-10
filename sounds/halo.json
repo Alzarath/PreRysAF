@@ -1,0 +1,21 @@
+{
+	"id": "halo",
+	"start": [
+		{
+			"stopTime": 0.3,
+			"attack": 0.01,
+			"decay": 0.29,
+			"startFreq": 9000,
+			"stopFreq": 11500,
+			"wave": "sawtooth",
+			"ratios": [
+				1,
+				1.167,
+				1.33,
+				1.78,
+				2,
+				2.25
+			]
+		}
+	]
+}

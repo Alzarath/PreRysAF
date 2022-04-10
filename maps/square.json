@@ -1,0 +1,26 @@
+{
+	"id": "square",
+	"color": "#473338",
+	"background": "#2b1d20",
+	"numPoints": 4,
+	"obstacles": [
+		{
+			"type": "fast",
+			"layoutRadius": 0.2,
+			"extent": 0.002,
+			"numObstacles": 2,
+			"layoutAngleOffsetInRevs": 0.125,
+			"angularWidthInRevs": 0.25,
+			"health": 200
+		},
+		{
+			"numObstacles": 2,
+			"layoutRadius": 0.33,
+			"layoutAngleOffsetInRevs": 0.125,
+			"numPoints": 4,
+			"extent": 0.009,
+			"orientationAngleOffsetInRevs": 0
+		}
+	],
+	"angleOffsetInRevs": 0.125
+}

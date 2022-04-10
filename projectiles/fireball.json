@@ -1,0 +1,33 @@
+{
+	"density": 25,
+	"radius": 0.003,
+	"speed": 0.6,
+	"maxTicks": 90,
+	"damage": 16,
+	"lifeSteal": 0.3,
+	"categories": 2,
+	"sound": "fireball",
+	"soundHit": "standard",
+	"color": "#f80",
+	"renderers": [
+		{
+			"type": "bloom",
+			"radius": 0.045
+		},
+		{
+			"type": "projectile",
+			"ticks": 30,
+			"smoke": 0.05
+		},
+		{
+			"type": "ray",
+			"ticks": 30
+		},
+		{
+			"type": "strike",
+			"ticks": 30,
+			"flash": true,
+			"numParticles": 5
+		}
+	]
+}

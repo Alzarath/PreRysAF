@@ -1,0 +1,12 @@
+{
+	"id": "backlash",
+	"name": "Boomerang",
+	"description": "Away and back. Hit your enemy twice, if you can. Hitting enemies while Boomerang is flying forwards will mark them. Marked enemies will take an additional 25% damage if struck by the return hit.",
+	"action": "projectile",
+	"color": "#00ccff",
+	"icon": "crackedBallDunk",
+	"maxAngleDiffInRevs": 0.01,
+	"cooldown": 120,
+	"throttle": true,
+	"projectile": "ProjectileTemplate:backlash"
+}

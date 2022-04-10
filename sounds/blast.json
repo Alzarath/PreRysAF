@@ -1,0 +1,21 @@
+{
+	"id": "blast",
+	"start": [
+		{
+			"stopTime": 1,
+			"attack": 0.1,
+			"decay": 0.9,
+			"highPass": 100,
+			"lowPass": 500,
+			"wave": "brown-noise"
+		},
+		{
+			"stopTime": 1,
+			"attack": 0.1,
+			"decay": 0.9,
+			"highPass": 8000,
+			"lowPass": 9000,
+			"wave": "brown-noise"
+		}
+	]
+}

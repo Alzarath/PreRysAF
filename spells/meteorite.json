@@ -1,0 +1,11 @@
+{
+	"id": "meteorite",
+	"description": "Send a little meteorite towards your enemies! Meteorite will split in two if it collides with any other projectiles.",
+	"action": "projectile",
+	"color": "#ff0066",
+	"icon": "fragmentedMeteor",
+	"maxAngleDiffInRevs": 0.01,
+	"cooldown": 390,
+	"throttle": true,
+	"projectile": "ProjectileTemplate:meteorite"
+}

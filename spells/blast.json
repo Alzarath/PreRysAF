@@ -1,0 +1,41 @@
+{
+	"id": "blast",
+	"name": "Acolyte Blast",
+	"description": "Hold down the button to charge your blast for longer. Charge for 2 seconds for maximum damage and knockback.",
+	"effects": [
+		{
+			"icon": "fas fa-hand-paper",
+			"title": "Interruptible",
+			"text": "If you take an enemy hit, Acolyte Blast will be interrupted."
+		}
+	],
+	"action": "charge",
+	"color": "#0ff",
+	"icon": "fireRay",
+	"sound": "blast",
+	"maxAngleDiffInRevs": 0.01,
+	"cooldown": 300,
+	"throttle": true,
+	"chargeTicks": 120,
+	"release": {
+		"maxChargeTicks": 450
+	},
+	"retarget": true,
+	"movementProportionWhileCharging": 0.5,
+	"strikeCancel": {
+		"cooldownTicks": 300
+	},
+	"chargeDamage": {
+		"initialMultiplier": 0,
+		"ticks": 120
+	},
+	"chargeRadius": {
+		"initialMultiplier": 0.25,
+		"ticks": 120
+	},
+	"chargeImpulse": {
+		"initialMultiplier": 0.05,
+		"ticks": 120
+	},
+	"projectile": "ProjectileTemplate:blast"
+}

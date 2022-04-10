@@ -1,0 +1,22 @@
+{
+	"id": "gravity-trapped",
+	"start": [
+		{
+			"stopTime": 2,
+			"attack": 0.01,
+			"decay": 1.95,
+			"startFreq": 410,
+			"stopFreq": 415,
+			"lowPass": 100,
+			"tremoloFreq": 12,
+			"tremoloStrength": 0.4,
+			"wave": "square",
+			"ratios": [
+				1,
+				1.33,
+				1.4,
+				1.5
+			]
+		}
+	]
+}

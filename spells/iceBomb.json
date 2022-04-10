@@ -1,0 +1,24 @@
+{
+	"id": "iceBomb",
+	"name": "Frostsplatter",
+	"description": "Shoot a splatter of frost in a wide arc. Pushes away objects and freezes enemies.",
+	"action": "spray",
+	"effects": [
+		{
+			"icon": "fas fa-snowflake",
+			"title": "Freeze",
+			"text": "Freeze nearby enemies for 1.25 seconds."
+		}
+	],
+	"sound": "iceBomb",
+	"color": "#44ffff",
+	"icon": "frostfire",
+	"maxAngleDiffInRevs": 0.01,
+	"cooldown": 300,
+	"throttle": true,
+	"numProjectilesPerTick": 2,
+	"intervalTicks": 1,
+	"lengthTicks": 3,
+	"jitterRatio": 0.6,
+	"projectile": "ProjectileTemplate:iceBomb"
+}

@@ -1,0 +1,21 @@
+{
+	"id": "gravity",
+	"name": "Ensnare",
+	"description": "Hold an enemy in place while you unleash your volleys upon them.",
+	"effects": [
+		{
+			"icon": "fas fa-hourglass-half",
+			"title": "Silence",
+			"text": "Your enemy will be unable to cast spells for 0.75 seconds."
+		}
+	],
+	"action": "projectile",
+	"color": "#0ace00",
+	"icon": "atomicSlashes",
+	"sound": "gravity",
+	"maxAngleDiffInRevs": 0.01,
+	"cooldown": 450,
+	"throttle": true,
+	"chargeTicks": 6,
+	"projectile": "ProjectileTemplate:gravity"
+}

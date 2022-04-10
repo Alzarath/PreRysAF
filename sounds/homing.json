@@ -1,0 +1,33 @@
+{
+	"id": "homing",
+	"start": [
+		{
+			"volume": 0.25,
+			"stopTime": 5,
+			"attack": 0.25,
+			"decay": 4.5,
+			"highPass": 1800,
+			"lowPass": 1803,
+			"wave": "brown-noise"
+		},
+		{
+			"stopTime": 5,
+			"attack": 0.5,
+			"decay": 4.5,
+			"startFreq": 800,
+			"stopFreq": 800,
+			"lowPass": 200,
+			"modStartFreq": 2400,
+			"modStopFreq": 2400,
+			"modStartStrength": 800,
+			"modStopStrength": 800,
+			"tremoloFreq": 6,
+			"tremoloStrength": 0.2,
+			"wave": "sine",
+			"ratios": [
+				1,
+				1.5
+			]
+		}
+	]
+}

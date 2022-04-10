@@ -1,0 +1,25 @@
+{
+	"id": "armor",
+	"name": "Spirit Armor",
+	"description": "Passive ability. Every atom in your body is imbued with inner strength.",
+	"effects": [
+		{
+			"icon": "fas fa-shield",
+			"title": "Resistant",
+			"text": "Reduce damage received by 15%. Applies to all forms of damage, including void damage."
+		}
+	],
+	"passive": true,
+	"untargeted": true,
+	"cooldown": 1,
+	"buffs": [
+		{
+			"type": "armor",
+			"passive": true,
+			"proportion": -0.15
+		}
+	],
+	"icon": "wingedShield",
+	"color": "#8800ff",
+	"action": "buff"
+}

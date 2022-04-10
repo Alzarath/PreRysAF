@@ -1,0 +1,11 @@
+{
+	"id": "meteor",
+	"description": "Send a giant meteor towards your enemies! Nothing stops a meteor.",
+	"action": "projectile",
+	"color": "#ff0000",
+	"icon": "cometSpark",
+	"maxAngleDiffInRevs": 0.01,
+	"cooldown": 540,
+	"throttle": true,
+	"projectile": "ProjectileTemplate:meteor"
+}

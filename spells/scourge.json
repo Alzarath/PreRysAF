@@ -1,0 +1,51 @@
+{
+	"id": "scourge",
+	"name": "Overload",
+	"description": "Release a melee-range explosion that will send your enemies flying. Be careful - this spell is so powerful it costs you some health too.",
+	"untargeted": true,
+	"movementCancel": true,
+	"effects": [
+		{
+			"icon": "fas fa-weight-hanging",
+			"title": "Heavy",
+			"text": "Knockback reduced 75% while overloading."
+		}
+	],
+	"chargeBuffs": [
+		{
+			"type": "mass",
+			"maxTicks": 30,
+			"channelling": true,
+			"radius": 0.014,
+			"density": 2.16
+		},
+		{
+			"type": "glide",
+			"maxTicks": 30,
+			"channelling": true,
+			"linearDampingMultiplier": 4
+		}
+	],
+	"detonate": {
+		"damage": 30,
+		"radius": 0.056,
+		"minImpulse": 0.001,
+		"maxImpulse": 0.002,
+		"renderTicks": 30
+	},
+	"chargeTicks": 30,
+	"cooldown": 300,
+	"throttle": false,
+	"unlink": true,
+	"interruptibleAfterTicks": 0,
+	"interruptCancel": {
+		"cooldownTicks": 300
+	},
+	"selfDamage": 10,
+	"minSelfHealth": 1,
+	"icon": "deadlyStrike",
+	"trailTicks": 30,
+	"color": "#ffcc00",
+	"sound": "scourge",
+	"action": "scourge"
+}

@@ -1,0 +1,35 @@
+{
+	"id": "return",
+	"color": "#433239",
+	"background": "#2b1c22",
+	"obstacles": [
+		{
+			"type": "volcano",
+			"numObstacles": 1,
+			"layoutRadius": 0,
+			"layoutAngleOffsetInRevs": 0.2,
+			"numPoints": 3,
+			"extent": 0.025,
+			"orientationAngleOffsetInRevs": 0.5
+		},
+		{
+			"type": "inward",
+			"layoutRadius": 0.15,
+			"extent": 0.1,
+			"numObstacles": 3,
+			"layoutAngleOffsetInRevs": 0.2,
+			"angularWidthInRevs": 0.01,
+			"health": 200
+		},
+		{
+			"numObstacles": 3,
+			"layoutRadius": 0.25,
+			"layoutAngleOffsetInRevs": 0.36666666667,
+			"numPoints": 4,
+			"extent": 0.01,
+			"orientationAngleOffsetInRevs": 0
+		}
+	],
+	"numPoints": 6,
+	"angleOffsetInRevs": 0.2
+}

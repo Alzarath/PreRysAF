@@ -1,0 +1,14 @@
+{
+	"id": "triplet-channelling",
+	"cutoffEarly": false,
+	"start": [
+		{
+			"stopTime": 0.5,
+			"attack": 0.25,
+			"decay": 0.25,
+			"highPass": 732,
+			"lowPass": 738,
+			"wave": "brown-noise"
+		}
+	]
+}

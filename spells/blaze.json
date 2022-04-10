@@ -1,0 +1,43 @@
+{
+	"id": "blaze",
+	"name": "Blaze",
+	"description": "Dash a short distance, phasing through obstacles and burning through anyone in your path.",
+	"untargeted": true,
+	"cooldown": 600,
+	"throttle": false,
+	"icon": "fireWave",
+	"color": "#ff00cc",
+	"action": "thrust",
+	"sound": "blaze",
+	"range": 0.09,
+	"speed": 0.8,
+	"followCursor": true,
+	"damageTemplate": {
+		"damage": 10,
+		"lifeSteal": 0.3
+	},
+	"buffs": [
+		{
+			"type": "mass",
+			"cleansable": false,
+			"channelling": true,
+			"maxTicks": 60,
+			"radius": 0.005,
+			"restrictCollideWith": 16,
+			"appendCollideWith": 16,
+			"sense": 3,
+			"render": {
+				"color": "#f0c",
+				"selfColor": true,
+				"numParticles": 0,
+				"particleRadius": 0,
+				"ticks": 1,
+				"bloom": 0.03,
+				"glow": 0.5,
+				"decay": true
+			}
+		}
+	],
+	"projectileInterval": 1,
+	"projectile": "ProjectileTemplate:blaze"
+}

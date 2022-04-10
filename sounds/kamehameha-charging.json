@@ -1,0 +1,23 @@
+{
+	"id": "kamehameha-charging",
+	"start": [
+		{
+			"stopTime": 0.5,
+			"attack": 0.49,
+			"decay": 0.01,
+			"startFreq": 4,
+			"stopFreq": 19,
+			"wave": "triangle",
+			"ratios": [
+				1,
+				2,
+				2.5,
+				4,
+				5,
+				8,
+				10,
+				16
+			]
+		}
+	]
+}

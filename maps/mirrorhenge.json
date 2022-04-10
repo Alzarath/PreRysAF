@@ -1,0 +1,45 @@
+{
+	"id": "mirrorhenge",
+	"color": "#413834",
+	"background": "#29221e",
+	"obstacles": [
+		{
+			"type": "fast",
+			"numObstacles": 4,
+			"layoutRadius": 0.18,
+			"layoutAngleOffsetInRevs": 0.08333333,
+			"numPoints": 4,
+			"extent": 0.003,
+			"orientationAngleOffsetInRevs": 0,
+			"angularWidthInRevs": 0.25
+		},
+		{
+			"type": "spinner",
+			"numObstacles": 3,
+			"layoutRadius": 0.0725,
+			"layoutAngleOffsetInRevs": 0.2,
+			"numPoints": 4,
+			"extent": 0.018,
+			"orientationAngleOffsetInRevs": 0,
+			"angularWidthInRevs": 0.03
+		},
+		{
+			"type": "mirror",
+			"pattern": [
+				1,
+				1,
+				0,
+				0,
+				0,
+				1
+			],
+			"numObstacles": 36,
+			"layoutRadius": 0.35,
+			"layoutAngleOffsetInRevs": 0.125,
+			"numPoints": 4,
+			"extent": 0.005,
+			"orientationAngleOffsetInRevs": 0,
+			"angularWidthInRevs": 0.02
+		}
+	]
+}

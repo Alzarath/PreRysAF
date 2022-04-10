@@ -1,0 +1,58 @@
+{
+	"density": 1,
+	"ccd": false,
+	"collideWith": 17,
+	"expireOn": 65535,
+	"expireOnMirror": true,
+	"sensor": true,
+	"swappable": false,
+	"selfPassthrough": true,
+	"radius": 0.005,
+	"speed": 0.1,
+	"maxTicks": 10,
+	"damage": 0,
+	"destructible": {},
+	"lifeSteal": 0.3,
+	"behaviours": [
+		{
+			"type": "homing",
+			"targetType": "cursor",
+			"trigger": {
+				"afterTicks": 6
+			},
+			"newSpeed": 0,
+			"redirect": true
+		},
+		{
+			"type": "expireOnOwnerRetreat",
+			"maxDistance": 0.15,
+			"trigger": {
+				"afterTicks": 60
+			}
+		}
+	],
+	"color": "#ff0044",
+	"renderers": [
+		{
+			"type": "bloom",
+			"ownerColor": true,
+			"radius": 0.015
+		},
+		{
+			"type": "projectile",
+			"ticks": 10,
+			"radiusMultiplier": 0.5,
+			"smoke": {
+				"isotropicSpeed": 0.15
+			},
+			"vanish": 1,
+			"ownerColor": true
+		},
+		{
+			"type": "strike",
+			"ticks": 30,
+			"flash": true,
+			"detonate": 0.01
+		}
+	]
+}

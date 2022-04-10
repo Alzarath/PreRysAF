@@ -1,0 +1,13 @@
+{
+	"id": "fireball",
+	"sustain": [
+		{
+			"stopTime": 1.5,
+			"attack": 0.25,
+			"decay": 0.25,
+			"highPass": 432,
+			"lowPass": 438,
+			"wave": "brown-noise"
+		}
+	]
+}

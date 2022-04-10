@@ -1,0 +1,22 @@
+{
+	"id": "repeater-setCooldown",
+	"cutoffEarly": false,
+	"start": [
+		{
+			"volume": 0.5,
+			"stopTime": 0.25,
+			"attack": 0.01,
+			"decay": 0.24,
+			"startFreq": 4000,
+			"stopFreq": 4000,
+			"lowPass": 4000,
+			"wave": "square",
+			"tremoloFreq": 15,
+			"tremoloStrength": 0.4,
+			"ratios": [
+				1,
+				1.5
+			]
+		}
+	]
+}

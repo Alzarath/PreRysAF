@@ -1,0 +1,61 @@
+{
+	"density": 1,
+	"ccd": false,
+	"radius": 0.002,
+	"speed": 0.5,
+	"maxTicks": 240,
+	"hitInterval": 15,
+	"damage": 6,
+	"lifeSteal": 1,
+	"collideWith": 17,
+	"expireOn": 4,
+	"expireAgainstHeroes": 12,
+	"expireAgainstObjects": 12,
+	"swappable": false,
+	"selfPassthrough": true,
+	"shieldTakesOwnership": false,
+	"destructible": {
+		"against": 12
+	},
+	"behaviours": [
+		{
+			"type": "strafe",
+			"maxSpeed": 0.12
+		},
+		{
+			"type": "homing",
+			"revolutionsPerSecond": 1,
+			"maxTurnProportion": 0.15,
+			"minDistanceToTarget": 0.02,
+			"targetType": "self"
+		}
+	],
+	"sound": "halo",
+	"soundHit": "halo",
+	"color": "#ccc",
+	"renderers": [
+		{
+			"type": "bloom",
+			"selfColor": true,
+			"ownerColor": true,
+			"radius": 0.02
+		},
+		{
+			"type": "ray",
+			"selfColor": true,
+			"ownerColor": true,
+			"ticks": 15,
+			"glow": 0,
+			"vanish": 1
+		},
+		{
+			"type": "strike",
+			"selfColor": true,
+			"ownerColor": true,
+			"ticks": 15,
+			"growth": 1.1,
+			"flash": true,
+			"numParticles": 3
+		}
+	]
+}

@@ -1,0 +1,53 @@
+{
+	"id": "kamehameha-channelling",
+	"repeatIntervalSeconds": 0.1,
+	"start": [
+		{
+			"stopTime": 0.25,
+			"attack": 0.05,
+			"decay": 0.2,
+			"startFreq": 40,
+			"stopFreq": 18,
+			"wave": "triangle",
+			"ratios": [
+				1,
+				2,
+				4
+			]
+		}
+	],
+	"sustain": [
+		{
+			"stopTime": 0.25,
+			"attack": 0.1,
+			"decay": 0.15,
+			"startFreq": 18,
+			"stopFreq": 18.1,
+			"lowPass": 200,
+			"wave": "triangle",
+			"ratios": [
+				1,
+				8,
+				24,
+				56,
+				88
+			]
+		},
+		{
+			"stopTime": 0.25,
+			"attack": 0.1,
+			"decay": 0.15,
+			"startFreq": 18,
+			"stopFreq": 17.9,
+			"lowPass": 200,
+			"wave": "square",
+			"ratios": [
+				1,
+				2.16,
+				4.16,
+				8,
+				16
+			]
+		}
+	]
+}

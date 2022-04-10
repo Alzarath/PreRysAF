@@ -1,0 +1,150 @@
+{
+	"Keys": [
+		{
+			"btn": "a",
+			"barSize": 0.75,
+			"wheelSize": 0.5
+		},
+		null,
+		{
+			"btn": "q",
+			"barSize": 1,
+			"wheelSize": 1
+		},
+		{
+			"btn": "w",
+			"barSize": 1,
+			"wheelSize": 0.75
+		},
+		{
+			"btn": "e",
+			"barSize": 1,
+			"wheelSize": 0.75
+		},
+		{
+			"btn": "r",
+			"barSize": 1,
+			"wheelSize": 0.75
+		},
+		null,
+		{
+			"btn": "f",
+			"barSize": 0.75,
+			"wheelSize": 0.5
+		}
+	],
+	"Options": {
+		"a": [
+			[
+				"thrust"
+			],
+			[
+				"teleport",
+				"swap"
+			],
+			[
+				"voidRush",
+				"vanish"
+			]
+		],
+		"q": [
+			[
+				"fireball",
+				"flamestrike"
+			],
+			[
+				"difire",
+				"trifire"
+			],
+			[
+				"retractor",
+				"backlash"
+			],
+			[
+				"whip",
+				"phaseOrb"
+			]
+		],
+		"w": [
+			[
+				"drain",
+				"boost"
+			],
+			[
+				"homing",
+				"boomerang"
+			],
+			[
+				"gravity",
+				"whirlwind"
+			],
+			[
+				"link",
+				"grapple"
+			],
+			[
+				"lightning"
+			]
+		],
+		"e": [
+			[
+				"meteor",
+				"meteorite"
+			],
+			[
+				"armor",
+				"horcrux"
+			],
+			[
+				"shield",
+				"icewall"
+			],
+			[
+				"saber",
+				"dualsaber"
+			],
+			[
+				"phaseOut",
+				"blaze"
+			]
+		],
+		"r": [
+			[
+				"repeater",
+				"bouncer"
+			],
+			[
+				"empower"
+			],
+			[
+				"supernova",
+				"rocket"
+			],
+			[
+				"kamehameha",
+				"blast"
+			]
+		],
+		"f": [
+			[
+				"mines"
+			],
+			[
+				"bump",
+				"scourge"
+			],
+			[
+				"firespray",
+				"iceBomb"
+			],
+			[
+				"halo"
+			]
+		]
+	},
+	"Special": {
+		"move": "move",
+		"retarget": "retarget",
+		"s": "stop"
+	}
+}

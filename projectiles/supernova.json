@@ -1,0 +1,65 @@
+{
+	"density": 5,
+	"ccd": false,
+	"radius": 0.001,
+	"speed": 0.3,
+	"maxTicks": 63,
+	"damage": 0,
+	"collideWith": 0,
+	"expireOn": 0,
+	"expireAfterCursorTicks": 18,
+	"behaviours": [
+		{
+			"type": "homing",
+			"targetType": "cursor",
+			"trigger": {
+				"atCursor": true
+			},
+			"newSpeed": 0,
+			"redirect": true
+		},
+		{
+			"type": "homing",
+			"targetType": "cursor",
+			"trigger": {
+				"afterTicks": 45
+			},
+			"newSpeed": 0,
+			"redirect": true
+		}
+	],
+	"detonate": {
+		"damage": 0,
+		"radius": 0.05,
+		"minImpulse": 0.0004,
+		"maxImpulse": 0.001,
+		"renderTicks": 30
+	},
+	"sound": "supernova",
+	"color": "#ff9a00",
+	"renderers": [
+		{
+			"type": "bloom",
+			"radius": 0.03
+		},
+		{
+			"type": "projectile",
+			"ticks": 3,
+			"vanish": 1
+		},
+		{
+			"type": "ray",
+			"ticks": 30,
+			"vanish": 1
+		},
+		{
+			"type": "reticule",
+			"color": "#ff9a00",
+			"minRadius": 0.049,
+			"remainingTicks": 15,
+			"shrinkTicks": 15,
+			"radius": 0.05
+		}
+	]
+}
+

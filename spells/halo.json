@@ -1,0 +1,51 @@
+{
+	"id": "halo",
+	"name": "Halo",
+	"description": "Build up to 3 halos over 3 seconds, then touch your enemy for lifesteal.",
+	"effects": [
+		{
+			"icon": "fas fa-running",
+			"title": "Fast",
+			"text": "Gain a 20% movement speed boost."
+		},
+		{
+			"icon": "fas fa-hand-paper",
+			"title": "Interruptible",
+			"text": "The halos and speed boost will be cancelled if you are hit, or if you cast another spell."
+		}
+	],
+	"action": "spray",
+	"color": "#ffaa77",
+	"icon": "angelOutfit",
+	"maxAngleDiffInRevs": 0.01,
+	"cooldown": 450,
+	"throttle": true,
+	"movementProportionWhileChannelling": 1,
+	"interruptibleAfterTicks": 0,
+	"strikeCancel": {},
+	"maxChannellingTicks": 300,
+	"jitterRatio": 0,
+	"intervalTicks": 90,
+	"lengthTicks": 181,
+	"buffs": [
+		{
+			"type": "movement",
+			"maxTicks": 450,
+			"movementProportion": 1.2,
+			"channelling": true,
+			"render": {
+				"color": "#8800ff",
+				"alpha": 0.2,
+				"heroColor": true,
+				"ticks": 30,
+				"emissionRadiusFactor": 0,
+				"particleRadius": 0.014,
+				"shine": 0.5,
+				"glow": 1,
+				"vanish": 1,
+				"decay": true
+			}
+		}
+	],
+	"projectile": "ProjectileTemplate:halo"
+}

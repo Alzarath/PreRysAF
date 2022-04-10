@@ -1,0 +1,12 @@
+{
+	"id": "phaseOrb",
+	"name": "Phase Orb",
+	"description": "Though it may not hit as hard as Fireball, Phase Orb has the powerful ability to pass through almost all projectiles and obstacles!",
+	"action": "projectile",
+	"color": "#0ff",
+	"icon": "ballGlow",
+	"maxAngleDiffInRevs": 0.01,
+	"cooldown": 90,
+	"throttle": true,
+	"projectile": "ProjectileTemplate:phaseOrb"
+}

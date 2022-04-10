@@ -1,0 +1,54 @@
+{
+	"sound": "drain",
+	"density": 2,
+	"radius": 0.002,
+	"speed": 0.2,
+	"maxTicks": 120,
+	"damage": 15,
+	"lifeSteal": 1,
+	"behaviours": [
+		{
+			"type": "homing",
+			"targetType": "enemy",
+			"trigger": {
+				"atCursor": true
+			},
+			"newSpeed": 0.15,
+			"redirect": true
+		}
+	],
+	"color": "#22ee88",
+	"renderers": [
+		{
+			"type": "bloom"
+		},
+		{
+			"type": "projectile",
+			"ticks": 5,
+			"vanish": 1,
+			"light": 0.8,
+			"minGraphics": 2
+		},
+		{
+			"type": "projectile",
+			"ticks": 15,
+			"vanish": 1,
+			"light": 0.5
+		},
+		{
+			"type": "ray",
+			"intermediatePoints": true,
+			"radiusMultiplier": 0.25,
+			"ticks": 45,
+			"vanish": 1,
+			"light": 0.8
+		},
+		{
+			"type": "strike",
+			"ticks": 30,
+			"growth": 2,
+			"flash": true,
+			"numParticles": 4
+		}
+	]
+}

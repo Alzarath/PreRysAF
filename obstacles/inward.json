@@ -1,0 +1,33 @@
+{
+	"id": "inward",
+	"health": 50,
+	"collideWith": 27,
+	"sensor": true,
+	"static": true,
+	"undamageable": true,
+	"render": [
+		{
+			"type": "solid",
+			"color": "#3334",
+			"deadColor": "#3331",
+			"glow": 0.2,
+			"tint": 1
+		},
+		{
+			"type": "smoke",
+			"color": "rgba(255, 255, 255, 0.25)",
+			"particleRadius": 0.002,
+			"bloom": 0.01,
+			"glow": 0.025,
+			"vanish": 1,
+			"ticks": 45,
+			"interval": 6,
+			"speed": 0,
+			"conveyor": 1,
+			"light": 1
+		}
+	],
+	"conveyor": {
+		"radialSpeed": -0.05
+	}
+}

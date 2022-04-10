@@ -1,0 +1,34 @@
+{
+	"id": "ring",
+	"color": "#463434",
+	"background": "#2b1d1d",
+	"obstacles": [
+		{
+			"type": "fast",
+			"layoutRadius": 0.1325,
+			"extent": 0.0025,
+			"numObstacles": 10,
+			"layoutAngleOffsetInRevs": 0,
+			"angularWidthInRevs": 0.1
+		},
+		{
+			"type": "mirror",
+			"numObstacles": 1,
+			"layoutRadius": 0,
+			"layoutAngleOffsetInRevs": 0,
+			"numPoints": 6,
+			"extent": 0.015,
+			"orientationAngleOffsetInRevs": 0.5
+		},
+		{
+			"numObstacles": 4,
+			"layoutRadius": 0.32,
+			"layoutAngleOffsetInRevs": 0.08333333333,
+			"numPoints": 4,
+			"extent": 0.01,
+			"orientationAngleOffsetInRevs": 0
+		}
+	],
+	"angleOffsetInRevs": 0.08333333333,
+	"numPoints": 4
+}

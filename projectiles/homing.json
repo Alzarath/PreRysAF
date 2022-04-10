@@ -1,0 +1,44 @@
+{
+	"density": 25,
+	"radius": 0.003,
+	"speed": 0.15,
+	"maxTicks": 210,
+	"damage": 16,
+	"lifeSteal": 0.3,
+	"expireOn": 13,
+	"behaviours": [
+		{
+			"type": "homing",
+			"revolutionsPerSecond": 1,
+			"maxTurnProportion": 0.05
+		}
+	],
+	"sound": "homing",
+	"soundHit": "standard",
+	"color": "#44ffcc",
+	"renderers": [
+		{
+			"type": "bloom"
+		},
+		{
+			"type": "projectile",
+			"ticks": 30,
+			"light": 0.5,
+			"smoke": 0.05,
+			"vanish": 0.75
+		},
+		{
+			"type": "ray",
+			"ticks": 30,
+			"light": 0.1,
+			"vanish": 0.75
+		},
+		{
+			"type": "strike",
+			"ticks": 30,
+			"growth": 1,
+			"flash": true,
+			"numParticles": 5
+		}
+	]
+}

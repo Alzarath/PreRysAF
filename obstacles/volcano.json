@@ -1,0 +1,61 @@
+{
+	"id": "volcano",
+	"health": 50,
+	"collideWith": 9,
+	"sensor": true,
+	"static": true,
+	"undamageable": true,
+	"strike": {
+		"ticks": 15,
+		"flash": true
+	},
+	"render": [
+		{
+			"type": "solid",
+			"color": "rgba(255, 0, 128, 0.9)",
+			"deadColor": "rgba(255, 0, 128, 0.25)",
+			"glow": 0.2
+		},
+		{
+			"type": "smoke",
+			"color": "rgba(255, 0, 128, 1)",
+			"particleRadius": 0.01,
+			"fade": "rgba(0, 0, 0, 0)",
+			"bloom": 0.01,
+			"glow": 0.05,
+			"ticks": 30,
+			"interval": 8,
+			"speed": 0.1
+		}
+	],
+	"hitInterval": 15,
+	"buffs": [
+		{
+			"type": "burn",
+			"maxTicks": 15,
+			"collideWith": 65535,
+			"packet": {
+				"damage": 3,
+				"lifeSteal": 0,
+				"noKnockback": true,
+				"noHit": true,
+				"isLava": true,
+				"source": "lava"
+			},
+			"hitInterval": 5,
+			"stack": "volcano",
+			"maxStacks": 1,
+			"render": {
+				"color": "#ff0088",
+				"alpha": 0.3,
+				"light": 1,
+				"ticks": 30,
+				"emissionRadiusFactor": 1,
+				"particleRadius": 0.005,
+				"shine": 0.2,
+				"glow": 1,
+				"vanish": 1
+			}
+		}
+	]
+}

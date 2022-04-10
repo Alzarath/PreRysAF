@@ -1,0 +1,35 @@
+{
+	"id": "octogon",
+	"color": "#41344b",
+	"background": "#241d2b",
+	"obstacles": [
+		{
+			"type": "slow",
+			"numObstacles": 3,
+			"layoutRadius": 0.075,
+			"layoutAngleOffsetInRevs": 0.125,
+			"numPoints": 4,
+			"extent": 0.0025,
+			"orientationAngleOffsetInRevs": 0,
+			"angularWidthInRevs": 0.333333
+		},
+		{
+			"type": "lightweight",
+			"numObstacles": 20,
+			"layoutRadius": 0.25,
+			"layoutAngleOffsetInRevs": 0,
+			"numPoints": 4,
+			"extent": 0.009,
+			"orientationAngleOffsetInRevs": 0,
+			"angularWidthInRevs": 0.015,
+			"pattern": [
+				1,
+				1,
+				1,
+				0,
+				0
+			]
+		}
+	],
+	"numPoints": 8
+}

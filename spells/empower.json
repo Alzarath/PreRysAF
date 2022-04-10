@@ -1,0 +1,25 @@
+{
+	"id": "empower",
+	"name": "Apex Acolyte",
+	"description": "Passive ability. Your superior talents allow you to attack with increased effectiveness.",
+	"effects": [
+		{
+			"icon": "fas fa-sword",
+			"title": "Empowered",
+			"text": "Increase damage dealt by 15%."
+		}
+	],
+	"passive": true,
+	"untargeted": true,
+	"cooldown": 1,
+	"buffs": [
+		{
+			"type": "lifeSteal",
+			"passive": true,
+			"damageMultiplier": 1.15
+		}
+	],
+	"icon": "dna1",
+	"color": "#40f",
+	"action": "buff"
+}

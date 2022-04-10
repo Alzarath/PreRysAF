@@ -1,0 +1,46 @@
+{
+	"id": "whip",
+	"name": "Electroshock",
+	"description": "Shock your enemies at short-range.",
+	"effects": [
+		{
+			"icon": "fas fa-running",
+			"title": "Fast",
+			"text": "Gain a 20% movement speed bonus for 3 seconds (even if you miss)."
+		},
+		{
+			"icon": "fas fa-snowflake",
+			"title": "Slow",
+			"text": "Enemies hit by Electroshock will be slowed 25% for 2 seconds."
+		}
+	],
+	"action": "projectile",
+	"color": "#39fffa",
+	"icon": "electricWhip",
+	"maxAngleDiffInRevs": 0.01,
+	"chargeTicks": 5,
+	"cooldown": 90,
+	"throttle": true,
+	"buffs": [
+		{
+			"type": "movement",
+			"stack": "whip",
+			"maxTicks": 180,
+			"movementProportion": 1.2,
+			"render": {
+				"color": "#8800ff",
+				"alpha": 0.2,
+				"heroColor": true,
+				"ticks": 30,
+				"emissionRadiusFactor": 0,
+				"particleRadius": 0.014,
+				"shine": 0.5,
+				"glow": 1,
+				"bloom": 0.03,
+				"vanish": 1,
+				"decay": true
+			}
+		}
+	],
+	"projectile": "ProjectileTemplate:whip"
+}

@@ -1,0 +1,33 @@
+{
+	"id": "backlash",
+	"start": [
+		{
+			"volume": 0.25,
+			"stopTime": 1.5,
+			"attack": 0.25,
+			"decay": 1.25,
+			"highPass": 1900,
+			"lowPass": 1904,
+			"wave": "brown-noise"
+		},
+		{
+			"stopTime": 1.5,
+			"attack": 0.01,
+			"decay": 1.4,
+			"startFreq": 1900,
+			"stopFreq": 1900,
+			"lowPass": 400,
+			"modStartFreq": 2000,
+			"modStopFreq": 2000,
+			"modStartStrength": 300,
+			"modStopStrength": 300,
+			"tremoloFreq": 21,
+			"tremoloStrength": 0.5,
+			"wave": "sine",
+			"ratios": [
+				1,
+				1.5
+			]
+		}
+	]
+}

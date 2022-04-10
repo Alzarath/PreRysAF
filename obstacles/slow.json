@@ -1,0 +1,54 @@
+{
+	"id": "slow",
+	"health": 50,
+	"collideWith": 1,
+	"sensor": true,
+	"static": true,
+	"undamageable": true,
+	"strike": {
+		"ticks": 15,
+		"flash": true
+	},
+	"render": [
+		{
+			"type": "solid",
+			"color": "rgba(64, 255, 255, 0.75)",
+			"deadColor": "rgba(64, 255, 255, 0.25)",
+			"glow": 0.2,
+			"light": 0.9
+		},
+		{
+			"type": "smoke",
+			"color": "rgba(64, 255, 255, 1)",
+			"particleRadius": 0.002,
+			"bloom": 0.01,
+			"glow": 0.025,
+			"vanish": 1,
+			"ticks": 15,
+			"interval": 4,
+			"speed": 0.05,
+			"light": 1
+		}
+	],
+	"hitInterval": 15,
+	"buffs": [
+		{
+			"type": "movement",
+			"stack": "slow",
+			"maxStacks": 1,
+			"maxTicks": 15,
+			"movementProportion": 0.8,
+			"render": {
+				"color": "rgba(64, 255, 255, 1)",
+				"alpha": 0.3,
+				"ticks": 30,
+				"emissionRadiusFactor": 1,
+				"particleRadius": 0.01,
+				"shine": 0.2,
+				"glow": 0.7,
+				"bloom": 0,
+				"vanish": 1
+			}
+		}
+	]
+}

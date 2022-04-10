@@ -1,0 +1,40 @@
+{
+	"density": 3,
+	"radius": 0.001,
+	"speed": 1.5,
+	"fixedSpeed": true,
+	"bumpable": true,
+	"maxTicks": 180,
+	"hitInterval": 15,
+	"damage": 10,
+	"lifeSteal": 0.3,
+	"collideWith": 29,
+	"expireOn": 4,
+	"shieldTakesOwnership": false,
+	"bounce": {
+		"cleanseable": true
+	},
+	"sound": "bouncer",
+	"color": "#88ee22",
+	"renderers": [
+		{
+			"type": "bloom",
+			"selfColor": true
+		},
+		{
+			"type": "ray",
+			"intermediatePoints": true,
+			"selfColor": true,
+			"ticks": 60,
+			"vanish": 0.25
+		},
+		{
+			"type": "strike",
+			"selfColor": true,
+			"ticks": 15,
+			"flash": true,
+			"growth": 1
+		}
+	]
+}
+

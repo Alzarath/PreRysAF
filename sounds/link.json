@@ -1,0 +1,23 @@
+{
+	"id": "link",
+	"start": [
+		{
+			"stopTime": 2,
+			"attack": 1,
+			"decay": 1,
+			"startFreq": 150,
+			"stopFreq": 150,
+			"lowPass": 150,
+			"tremoloFreq": 10,
+			"tremoloStrength": 0.2,
+			"wave": "square",
+			"ratios": [
+				1,
+				2,
+				4,
+				8,
+				16
+			]
+		}
+	]
+}

@@ -1,0 +1,12 @@
+{
+	"id": "boomerang",
+	"name": "Orbiter",
+	"description": "Around and around you. Keep following your enemies at orbital distance until it hits.",
+	"action": "projectile",
+	"color": "#ff00ff",
+	"icon": "boomerangSun",
+	"maxAngleDiffInRevs": 0.01,
+	"cooldown": 660,
+	"throttle": true,
+	"projectile": "ProjectileTemplate:boomerang"
+}

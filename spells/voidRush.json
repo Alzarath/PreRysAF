@@ -1,0 +1,59 @@
+{
+	"id": "voidRush",
+	"name": "Void Rush",
+	"description": "For 3 seconds, increase movement speed 80%, and also become immune to damage from the void.",
+	"effects": [
+		{
+			"icon": "fas fa-briefcase-medical",
+			"title": "Cleanse",
+			"text": "Clears all positive and negative effects."
+		},
+		{
+			"icon": "fas fa-clock",
+			"title": "Void recharge",
+			"text": "Cools down 2x faster when in the void."
+		}
+	],
+	"untargeted": true,
+	"maxAngleDiffInRevs": 1,
+	"cooldown": 600,
+	"throttle": false,
+	"debuff": true,
+	"buffs": [
+		{
+			"type": "movement",
+			"movementProportion": 1.8,
+			"maxTicks": 180
+		},
+		{
+			"type": "cooldown",
+			"cooldownRateModifier": -1,
+			"spellId": "voidRush",
+			"maxTicks": 180
+		},
+		{
+			"type": "armor",
+			"proportion": -1,
+			"source": "lava",
+			"maxTicks": 180,
+			"sound": "voidRush-lavaImmunity",
+			"render": {
+				"color": "#8800ff",
+				"heroColor": true,
+				"ticks": 60,
+				"emissionRadiusFactor": 0,
+				"particleRadius": 0.014,
+				"decay": true,
+				"alpha": 0.3,
+				"light": 0.8,
+				"glow": 0.7,
+				"shine": 0.5,
+				"bloom": 0.03,
+				"vanish": 1
+			}
+		}
+	],
+	"icon": "sprint",
+	"color": "#8800ff",
+	"action": "buff"
+}

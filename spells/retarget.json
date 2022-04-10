@@ -1,0 +1,9 @@
+{
+	"id": "retarget",
+	"description": "",
+	"color": null,
+	"maxAngleDiffInRevs": 1,
+	"interruptibleAfterTicks": 0,
+	"cooldown": 0,
+	"action": "retarget"
+}

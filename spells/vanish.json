@@ -1,0 +1,80 @@
+{
+	"id": "vanish",
+	"name": "Vanish",
+	"description": "Vanish from sight for 4 seconds, and also increase movement speed 80%.",
+	"effects": [
+		{
+			"icon": "fas fa-briefcase-medical",
+			"title": "Cleanse",
+			"text": "Clears all positive and negative effects."
+		},
+		{
+			"icon": "fas fa-clock",
+			"title": "Void recharge",
+			"text": "Cools down 2x faster when in the void."
+		}
+	],
+	"untargeted": true,
+	"movementProportionWhileChannelling": 1.8,
+	"maxAngleDiffInRevs": 1,
+	"cooldown": 600,
+	"throttle": false,
+	"unlink": true,
+	"debuff": true,
+	"interruptibleAfterTicks": 15,
+	"maxChannellingTicks": 240,
+	"buffs": [
+		{
+			"type": "movement",
+			"maxTicks": 240,
+			"movementProportion": 1.8
+		},
+		{
+			"type": "vanish",
+			"maxTicks": 240,
+			"channelling": true,
+			"cancelOnBump": true,
+			"sound": "vanish",
+			"renderStart": {
+				"numParticles": 10,
+				"color": "#111",
+				"ticks": 60,
+				"particleRadius": 0.014,
+				"glow": 0.3,
+				"shine": 0,
+				"bloom": 0,
+				"vanish": 1
+			},
+			"render": {
+				"invisible": true,
+				"color": "#181818",
+				"ticks": 60,
+				"particleRadius": 0.014,
+				"glow": 0.3,
+				"shine": 0,
+				"bloom": 0,
+				"vanish": 1
+			},
+			"renderFinish": {
+				"numParticles": 10,
+				"color": "#111",
+				"ticks": 60,
+				"particleRadius": 0.014,
+				"glow": 0.3,
+				"shine": 0,
+				"bloom": 0,
+				"vanish": 1
+			}
+		},
+		{
+			"type": "cooldown",
+			"cooldownRateModifier": -1,
+			"channelling": false,
+			"spellId": "vanish",
+			"maxTicks": 240
+		}
+	],
+	"icon": "hidden",
+	"color": "#00aaff",
+	"action": "buff"
+}

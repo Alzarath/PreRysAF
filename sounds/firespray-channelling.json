@@ -1,0 +1,26 @@
+{
+	"id": "firespray-channelling",
+	"cutoffEarly": false,
+	"start": [
+		{
+			"volume": 0.25,
+			"stopTime": 0.5,
+			"attack": 0.1,
+			"decay": 0.25,
+			"startFreq": 4800,
+			"stopFreq": 7200,
+			"modStartFreq": 30,
+			"modStopFreq": 30,
+			"modStartStrength": 3600,
+			"modStopStrength": 10800,
+			"tremoloFreq": 30,
+			"tremoloStrength": 0.1,
+			"wave": "triangle",
+			"ratios": [
+				1,
+				1.33,
+				1.5
+			]
+		}
+	]
+}

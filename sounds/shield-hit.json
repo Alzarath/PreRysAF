@@ -1,0 +1,24 @@
+{
+	"id": "shield-hit",
+	"cutoffEarly": false,
+	"start": [
+		{
+			"volume": 0.5,
+			"stopTime": 0.5,
+			"attack": 0.01,
+			"decay": 0.49,
+			"startFreq": 90,
+			"stopFreq": 90,
+			"lowPass": 90,
+			"highPass": 40,
+			"modStartFreq": 180,
+			"modStopFreq": 180,
+			"modStartStrength": 90,
+			"modStopStrength": 90,
+			"wave": "sine",
+			"ratios": [
+				1
+			]
+		}
+	]
+}

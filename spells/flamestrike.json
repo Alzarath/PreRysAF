@@ -1,0 +1,12 @@
+{
+	"id": "flamestrike",
+	"name": "Fireboom",
+	"description": "It's slower than fireball - harder to aim, but does more damage. Takes 0.5 seconds to grow to full damage, so keep a little bit of distance for maximum effect.",
+	"action": "projectile",
+	"color": "#ff4400",
+	"icon": "burningDot",
+	"maxAngleDiffInRevs": 0.01,
+	"cooldown": 90,
+	"throttle": true,
+	"projectile": "ProjectileTemplate:flamestrike"
+}

@@ -1,0 +1,76 @@
+{
+	"density": 7,
+	"radius": 0.0025,
+	"speed": 0.5,
+	"maxTicks": 90,
+	"damage": 0,
+	"lifeSteal": 0.3,
+	"categories": 2,
+	"expireAgainstObjects": 65534,
+	"sound": "triplet",
+	"soundHit": "standard",
+	"behaviours": [
+		{
+			"type": "homing",
+			"targetType": "cursor",
+			"trigger": {
+				"afterTicks": 1
+			},
+			"redirect": true,
+			"newSpeed": 0.66
+		}
+	],
+	"color": "#ff0088",
+	"renderers": [
+		{
+			"type": "bloom",
+			"radius": 0.02
+		},
+		{
+			"type": "projectile",
+			"ticks": 15,
+			"smoke": 0.05,
+			"vanish": 1
+		},
+		{
+			"type": "ray",
+			"ticks": 8,
+			"vanish": 0.5
+		},
+		{
+			"type": "strike",
+			"ticks": 8,
+			"flash": true,
+			"numParticles": 2
+		}
+	],
+	"buffs": [
+		{
+			"type": "burn",
+			"collideWith": 9,
+			"against": 12,
+			"stack": "fire",
+			"hitInterval": 20,
+			"packet": {
+				"damage": 0.8333333333333334,
+				"lifeSteal": 0.3,
+				"noHit": true
+			},
+			"maxTicks": 240,
+			"resetOnGameStart": true,
+			"render": {
+				"color": "#ff0088",
+				"alpha": 0.075,
+				"light": 1,
+				"ticks": 15,
+				"emissionRadiusFactor": 1,
+				"particleRadius": 0.007,
+				"shine": 0.2,
+				"glow": 1,
+				"bloom": 0.03,
+				"vanish": 1
+			}
+		}
+	]
+}
+

@@ -1,0 +1,24 @@
+{
+	"id": "lightning",
+	"cutoffEarly": false,
+	"start": [
+		{
+			"stopTime": 0.3,
+			"attack": 0.001,
+			"decay": 0.29,
+			"startFreq": 4500,
+			"stopFreq": 5000,
+			"wave": "sawtooth",
+			"ratios": [
+				1,
+				1.33,
+				1.5,
+				1.78,
+				2,
+				2.67,
+				3,
+				3.56
+			]
+		}
+	]
+}

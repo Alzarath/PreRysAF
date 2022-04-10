@@ -1,0 +1,17 @@
+{
+	"id": "single",
+	"color": "#463441",
+	"background": "#2b1d27",
+	"numPoints": 3,
+	"obstacles": [
+		{
+			"type": "spinner",
+			"numObstacles": 1,
+			"layoutRadius": 0,
+			"layoutAngleOffsetInRevs": 0,
+			"numPoints": 3,
+			"extent": 0.017,
+			"orientationAngleOffsetInRevs": 0
+		}
+	]
+}

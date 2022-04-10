@@ -1,0 +1,19 @@
+{
+	"id": "bump",
+	"name": "Reverberate",
+	"description": "Passive ability. Reverberate sonic waves throughout your body. Knockback anyone you touch.",
+	"passive": true,
+	"untargeted": true,
+	"cooldown": 1,
+	"buffs": [
+		{
+			"type": "bump",
+			"passive": true,
+			"hitInterval": 15,
+			"impulse": 0.00019
+		}
+	],
+	"icon": "aura",
+	"color": "#f40",
+	"action": "buff"
+}

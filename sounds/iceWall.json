@@ -1,0 +1,18 @@
+{
+	"id": "icewall",
+	"start": [
+		{
+			"volume": 0.25,
+			"stopTime": 1.25,
+			"attack": 0.1,
+			"decay": 1.15,
+			"startFreq": 100,
+			"stopFreq": 100,
+			"highPass": 40,
+			"wave": "sine",
+			"ratios": [
+				1
+			]
+		}
+	]
+}

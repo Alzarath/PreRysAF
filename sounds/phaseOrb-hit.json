@@ -1,0 +1,25 @@
+{
+	"id": "phaseOrb-hit",
+	"cutoffEarly": false,
+	"start": [
+		{
+			"stopTime": 0.3,
+			"attack": 0.01,
+			"decay": 0.29,
+			"startFreq": 1900,
+			"stopFreq": 1900,
+			"lowPass": 150,
+			"modStartFreq": 2000,
+			"modStopFreq": 2000,
+			"modStartStrength": 2400,
+			"modStopStrength": 2400,
+			"tremoloFreq": 21,
+			"tremoloStrength": 0.5,
+			"wave": "sine",
+			"ratios": [
+				1,
+				1.5
+			]
+		}
+	]
+}

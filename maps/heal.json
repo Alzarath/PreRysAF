@@ -1,0 +1,36 @@
+{
+	"id": "heal",
+	"startMessage": "Game started. Fight over this healing pool!",
+	"color": "#413130",
+	"background": "#2b1d1d",
+	"obstacles": [
+		{
+			"type": "healing",
+			"layoutRadius": 0,
+			"extent": 0.02,
+			"numObstacles": 1,
+			"layoutAngleOffsetInRevs": 0.08333333,
+			"numPoints": 6
+		},
+		{
+			"type": "fast",
+			"numObstacles": 6,
+			"layoutRadius": 0.085,
+			"layoutAngleOffsetInRevs": 0,
+			"numPoints": 6,
+			"extent": 0.003,
+			"orientationAngleOffsetInRevs": 0,
+			"angularWidthInRevs": 0.166667
+		},
+		{
+			"numObstacles": 6,
+			"layoutRadius": 0.25,
+			"layoutAngleOffsetInRevs": 0,
+			"numPoints": 6,
+			"extent": 0.025,
+			"orientationAngleOffsetInRevs": 0,
+			"angularWidthInRevs": 0.008
+		}
+	],
+	"numPoints": 6
+}

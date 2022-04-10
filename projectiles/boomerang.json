@@ -1,0 +1,69 @@
+{
+	"density": 1,
+	"restitution": 0,
+	"radius": 0.003,
+	"speed": 0.6,
+	"maxTicks": 240,
+	"damage": 25,
+	"collideWith": 5,
+	"bumpable": true,
+	"lifeSteal": 0.3,
+	"expireOn": 5,
+	"expireAgainstHeroes": 4,
+	"hitInterval": 15,
+	"shieldTakesOwnership": false,
+	"partialDamage": {
+		"ticks": 60,
+		"initialMultiplier": 0.5
+	},
+	"behaviours": [
+		{
+			"type": "homing",
+			"revolutionsPerSecond": 1,
+			"maxTurnProportion": 0.04875,
+			"minDistanceToTarget": 0.075,
+			"maxDistanceToTarget": 0.075,
+			"targetType": "self"
+		},
+		{
+			"type": "strafe"
+		}
+	],
+	"color": "#ff00ff",
+	"sound": "boomerang",
+	"soundHit": "standard",
+	"renderers": [
+		{
+			"type": "bloom",
+			"selfColor": true
+		},
+		{
+			"type": "projectile",
+			"selfColor": true,
+			"ticks": 10,
+			"vanish": 1
+		},
+		{
+			"type": "ray",
+			"selfColor": true,
+			"ticks": 10,
+			"vanish": 1
+		},
+		{
+			"type": "ray",
+			"selfColor": true,
+			"radiusMultiplier": 0.25,
+			"ticks": 60,
+			"vanish": 1
+		},
+		{
+			"type": "strike",
+			"selfColor": true,
+			"ticks": 15,
+			"flash": true,
+			"numParticles": 5,
+			"detonate": 0.006
+		}
+	]
+}
+

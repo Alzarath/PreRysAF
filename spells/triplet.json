@@ -1,0 +1,18 @@
+{
+	"id": "triplet",
+	"name": "Trifire",
+	"description": "Each bolt of Trifire will add another stack of 2 damage per second to your enemy. There is no limit to the number of stacks, but you must hit them with Trifire at least once every 4 seconds to keep the fire burning.",
+	"action": "spray",
+	"sound": "triplet",
+	"color": "#ff0088",
+	"icon": "tripleScratches",
+	"maxAngleDiffInRevs": 0,
+	"cooldown": 90,
+	"throttle": true,
+	"movementProportionWhileChannelling": 1,
+	"numProjectilesPerTick": 3,
+	"intervalTicks": 1,
+	"lengthTicks": 1,
+	"jitterRatio": 1.5,
+	"projectile": "ProjectileTemplate:triplet"
+}

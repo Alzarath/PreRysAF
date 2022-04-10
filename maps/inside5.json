@@ -1,0 +1,24 @@
+{
+	"id": "inside5",
+	"color": "#413034",
+	"background": "#2a1d20",
+	"numPoints": 5,
+	"obstacles": [
+		{
+			"type": "volcano",
+			"layoutRadius": 0.0125,
+			"extent": 0.0125,
+			"numObstacles": 4,
+			"angularWidthInRevs": 0.25,
+			"layoutAngleOffsetInRevs": 0
+		},
+		{
+			"numObstacles": 5,
+			"layoutRadius": 0.15,
+			"layoutAngleOffsetInRevs": 0.1,
+			"numPoints": 3,
+			"extent": 0.015,
+			"orientationAngleOffsetInRevs": 0.5
+		}
+	]
+}

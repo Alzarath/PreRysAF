@@ -1,0 +1,10 @@
+{
+	"id": "go",
+	"description": "",
+	"color": null,
+	"maxAngleDiffInRevs": 0.25,
+	"interruptibleAfterTicks": 0,
+	"cooldown": 0,
+	"action": "move",
+	"cancelChanneling": true
+}

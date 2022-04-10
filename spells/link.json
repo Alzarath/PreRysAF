@@ -1,0 +1,18 @@
+{
+	"id": "link",
+	"description": "Pull your enemy towards you.",
+	"effects": [
+		{
+			"icon": "fas fa-exchange",
+			"title": "Redirect",
+			"text": "While linked, all received damage is instead applied to your enemy."
+		}
+	],
+	"action": "projectile",
+	"color": "#6600ff",
+	"icon": "andromedaChain",
+	"maxAngleDiffInRevs": 0.01,
+	"cooldown": 450,
+	"throttle": false,
+	"projectile": "ProjectileTemplate:link"
+}

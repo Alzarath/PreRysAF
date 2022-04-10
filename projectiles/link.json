@@ -1,0 +1,112 @@
+{
+	"density": 1,
+	"radius": 0.005,
+	"speed": 0.5,
+	"restitution": 0,
+	"maxTicks": 90,
+	"damage": 0,
+	"collideWith": 29,
+	"expireOn": 5,
+	"shieldTakesOwnership": false,
+	"bumpable": true,
+	"link": {
+		"linkWith": 1,
+		"impulsePerTick": 0.000006,
+		"selfFactor": 0,
+		"targetFactor": 1,
+		"minDistance": 0.025,
+		"maxDistance": 0.1,
+		"linkTicks": 105,
+		"redirectDamage": {
+			"selfProportion": 0.25,
+			"redirectProportion": 0.75,
+			"redirectAfterTicks": 15
+		},
+		"render": {
+			"type": "link",
+			"ownerColor": true,
+			"color": "#4444ff",
+			"colorize": 0.3,
+			"width": 0.0015,
+			"toWidth": 0.003,
+			"glow": 0.4,
+			"bloom": 0.005,
+			"shine": 0.25,
+			"shadow": 0.5,
+			"light": true,
+			"strike": {
+				"ticks": 15,
+				"flash": true,
+				"growth": 2
+			}
+		}
+	},
+	"detonate": {
+		"damage": 0,
+		"lifeSteal": 0.3,
+		"radius": 0.01,
+		"minImpulse": 0.0001,
+		"maxImpulse": 0.0001,
+		"renderTicks": 0
+	},
+	"behaviours": [
+		{
+			"type": "strafe"
+		},
+		{
+			"type": "homing",
+			"trigger": {
+				"afterTicks": 40
+			},
+			"targetType": "self",
+			"newSpeed": 0.05,
+			"redirect": true
+		},
+		{
+			"type": "homing",
+			"trigger": {
+				"afterTicks": 60
+			},
+			"targetType": "self",
+			"newSpeed": 0.6,
+			"redirect": true
+		},
+		{
+			"type": "expireOnOwnerDeath"
+		}
+	],
+	"sound": "link",
+	"color": "#4444ff",
+	"renderers": [
+		{
+			"type": "bloom",
+			"radius": 0.05,
+			"ownerColor": true
+		},
+		{
+			"type": "polygon",
+			"ownerColor": true,
+			"color": "#4444ff",
+			"numPoints": 3,
+			"radiusMultiplier": 2,
+			"revolutionInterval": 23,
+			"ticks": 1,
+			"light": 1,
+			"shadow": 0.5
+		},
+		{
+			"type": "link",
+			"ownerColor": true,
+			"color": "#4444ff",
+			"colorize": 0.3,
+			"width": 0.0015,
+			"toWidth": 0.003,
+			"glow": 0.4,
+			"bloom": 0.005,
+			"shadow": 0.5,
+			"shine": 0.25,
+			"light": true
+		}
+	]
+}
+

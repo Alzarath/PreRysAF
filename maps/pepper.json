@@ -1,0 +1,26 @@
+{
+	"id": "pepper",
+	"color": "#413a30",
+	"background": "#2b261d",
+	"obstacles": [
+		{
+			"numObstacles": 5,
+			"layoutRadius": 0.32,
+			"layoutAngleOffsetInRevs": 0,
+			"numPoints": 3,
+			"extent": 0.017,
+			"orientationAngleOffsetInRevs": 0.1666667
+		},
+		{
+			"type": "bumper",
+			"numObstacles": 5,
+			"layoutRadius": 0.12,
+			"layoutAngleOffsetInRevs": 0.1,
+			"numPoints": 4,
+			"extent": 0.01,
+			"orientationAngleOffsetInRevs": 0,
+			"angularWidthInRevs": 0.04
+		}
+	],
+	"numPoints": 5
+}

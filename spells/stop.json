@@ -1,0 +1,10 @@
+{
+	"id": "stop",
+	"description": "",
+	"color": "white",
+	"glow": 0.5,
+	"maxAngleDiffInRevs": 1,
+	"interruptibleAfterTicks": 0,
+	"cooldown": 0,
+	"action": "stop"
+}

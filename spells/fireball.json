@@ -1,0 +1,11 @@
+{
+	"id": "fireball",
+	"description": "Quick cooldown and packs a punch. Good old trusty fireball.",
+	"action": "projectile",
+	"color": "#f80",
+	"icon": "thunderball",
+	"maxAngleDiffInRevs": 0.01,
+	"cooldown": 90,
+	"throttle": true,
+	"projectile": "ProjectileTemplate:fireball"
+}

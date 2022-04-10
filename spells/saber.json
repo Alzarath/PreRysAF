@@ -1,0 +1,57 @@
+{
+	"id": "saber",
+	"name": "Lightsaber",
+	"description": "For 1 second, swing your lightsaber to deflect projectiles and knockback enemies! Saber will only last 0.25 seconds after it hits the first enemy Acolyte.",
+	"effects": [
+		{
+			"icon": "fas fa-unlink",
+			"title": "Detach",
+			"text": "Lightsaber cuts through any Links or Grapples."
+		}
+	],
+	"untargeted": true,
+	"unlink": true,
+	"delink": true,
+	"takesOwnership": true,
+	"blocksTeleporters": false,
+	"shiftMultiplier": 0.25,
+	"speedMultiplier": 2,
+	"maxSpeed": 0.75,
+	"maxTurnRatePerTickInRevs": 0.1,
+	"damageMultiplier": 1,
+	"angleOffsetsInRevs": [
+		0
+	],
+	"width": 0.001,
+	"length": 0.075,
+	"chargeTicks": 20,
+	"movementProportionWhileCharging": 0.75,
+	"movementProportionWhileChannelling": 1,
+	"interruptibleAfterTicks": 20,
+	"expireAfterHitHeroTicks": 15,
+	"cooldown": 450,
+	"throttle": false,
+	"icon": "waveStrike",
+	"maxTicks": 60,
+	"channelling": true,
+	"categories": 16,
+	"collidesWith": 3,
+	"damageTemplate": {
+		"damage": 0
+	},
+	"trailTicks": 5,
+	"color": "#00ccff",
+	"light": 1,
+	"shine": 0.1,
+	"shadow": 0.5,
+	"glow": 0.3,
+	"bloom": 0.03,
+	"strike": {
+		"ticks": 6,
+		"flash": true,
+		"bloom": 0.03,
+		"growth": 0.3
+	},
+	"sound": "saber",
+	"action": "saber"
+}
